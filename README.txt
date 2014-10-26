@@ -1,6 +1,6 @@
 Coffee Advisor web application
 
-A simple apll which uses the Model View Controll (MVC).
+A simple app which uses the Model View Controll (MVC).
 HTML form page [form.html]
 Servlet Controller [CoffeSelect.java]
 Model [CoffeeExpert.java]

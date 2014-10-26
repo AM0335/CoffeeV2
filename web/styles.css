@@ -1,0 +1,42 @@
+body {background-image: url('images/backround.jpg');}
+h1 {font-style: oblique; text-align: center; text-decoration: underline;}
+div {text-align: center;}
+hr{
+    border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+#button {
+   border-top: 1px solid #d5f797;
+   background: #cad49f;
+   background: -webkit-gradient(linear, left top, left bottom, from(#9c7a3e), to(#cad49f));
+   background: -webkit-linear-gradient(top, #9c7a3e, #cad49f);
+   background: -moz-linear-gradient(top, #9c7a3e, #cad49f);
+   background: -ms-linear-gradient(top, #9c7a3e, #cad49f);
+   background: -o-linear-gradient(top, #9c7a3e, #cad49f);
+   padding: 8.5px 17px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+#button:hover {
+   border-top-color: #785628;
+   background: #785628;
+   color: #ccc;
+   }
+#button:active {
+   border-top-color: #5c461b;
+   background: #5c461b;
+   }

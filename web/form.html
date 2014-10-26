@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Coffee Advisor</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    
+    <body>
+        <h1>Coffee Advisor </h1>
+        <div>
+        <form method="POST" action="SelectCoffee.do" >
+            <h3>Select Coffee Type:</h3>
+            <input type="radio" name="drink" value="iced" checked="checked" >Iced &nbsp;
+            <input type="radio" name="drink" value="hot">Hot<br>
+            <select name="type" size="1">
+                <option value="milky">Milky</option>
+                <option value="strong">Spaced Out</option>
+                <option value="sweet">Sweet</option>
+                <option value="classic">Classic - Traditional</option>
+            </select>
+            <br><br>
+            
+                <input id="button" type="Submit">
+            
+        </form>
+        </div>
+    </body>
+</html>

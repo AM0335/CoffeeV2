@@ -21,5 +21,5 @@ http://83.212.123.61:8080/coffeev2/
 Validated by The W3C Markup Validation Service & 
 W3C CSS Validation Service.
 
-Another good tutorial is:
+Another good tutorial for MVC architecture is:
 http://www.thejavageek.com/2013/08/11/mvc-architecture-with-servlets-and-jsp/
